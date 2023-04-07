@@ -1,4 +1,9 @@
-## ░░░░░░ [SZMELC INDUSTRIES] ░░░░░░
+## ░░░░░░░░░░ [SZMELC INDUSTRIES] ░░░░░░░░░░
+### =============================== 
+<img src="https://i.imgur.com/x785n5v.png" alt="image" width="640" height="160">
+
+### ===============================
+
 >[GNU Shell Project] 👋 [Shell scripts & CLI software] 🙋‍ [Szmelc.INC] \
 > DISCLAIMER! - Szmelc is in early experimental stage, some (or most) features might be raw or not yet released. \
 > [DEV] Next to a project's name means still in development (unreleased)
