@@ -35,7 +35,7 @@ We do it by putting in a solid 30% effort, but always delivering 100% Szmelc! Ou
 > Private repository of classic software and games from [1990 - 2015], downloadable via CLI using `Szmelc CommanDOS` (SC for Windows)
 
 ### - ``
-> ...
+> Test
 
 ### ░░░░░░░░ DOCS: ░░░░░░░░
 <!--
