@@ -1,4 +1,4 @@
-## ░░░░░░░░░░ [SZMELC INDUSTRIES] ░░░░░░░░░░
+## ░░░░░░░░░░ [GNU SZMELC] ░░░░░░░░░░
 ### =============================== 
 <img src="https://i.imgur.com/x785n5v.png" alt="image" width="640" height="160">
 
