@@ -19,7 +19,7 @@
 solving complex problems with simple solutions. \
 Reach out on Discord: [Dc Profile](https://discord.com/users/sx66) \
 Huge fan of Bash / Shell & Python. \
-Soft spot for Debian, MX Linux, BunsenLabs OS & BlackArch
+Soft spot for Debian, MX Linux, BunsenLabs OS & BlackArch \
 Learning C, Go & Flask
 </details>
 
