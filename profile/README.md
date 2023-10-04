@@ -46,7 +46,20 @@ OG ~ Original Griefer & Dedicated Troll \
 Incredibly Clever & Code Proficient \
 Python, 🐚 Shell, ☕ Java, and More! 
 </details>
+
+<details>
+  <summary>fifqaaa</summary>
+  <img src=https://github.com/GNU-Szmelc/.github/assets/95081005/584aee27-294a-435e-b5fa-2a1e2b3ee6aa">
+  
+> Protocol Wizard \
+Networking, Linux, NAS, Alpine \
+Hardware of the Ancient ~ SuperCurse++ owner \
+Alpine Linux / Endeavour OS Enjoyer \
+Fan of Bottles project \
+Flashbacks from apt upgrade...
+</details> 
 </details>
+
 
 ## Our Projects
 
