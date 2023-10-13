@@ -1,6 +1,18 @@
 <img src="https://i.imgur.com/8PbvYtK.png" alt="image" width="640" height="160">
 
 <details>
+  <summary>[Organization Statistics]</summary>
+  
+  #### [14/10/2023]
+  - Public Repositories: 41
+  - Total Stars Earned: 16
+  - Total Watchers: 16
+  - Followers: 2
+  - Members: 6
+
+</details>
+
+<details>
   <summary>[What We Do]</summary>
   
 > Hey there, fellow Linux lovers! At SZMELC.inc, we're all about that open-source goodness and the crazy cool Linux scene. We whip up a bunch of nifty gadgets, toolboxes, and apps to jazz up your Linux adventures. Our goal? To cook up some top-notch, do-it-all software that's a blast for devs, sysadmins, and Linux geeks like you! 😎🐧
