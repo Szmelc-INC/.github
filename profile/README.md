@@ -4,11 +4,23 @@
   <summary>[Organization Statistics]</summary>
   
   #### [14/10/2023]
+  ===============
   - Public Repositories: 41
   - Total Stars Earned: 16
   - Total Watchers: 16
   - Followers: 2
   - Members: 6
+
+  ===============
+  ### 5 Most Used Languages
+  =============== 
+  - Shell: 167420 lines
+  - Python: 141538 lines
+  - PowerShell: 16657 lines
+  - HTML: 8343 lines
+  - JavaScript: 7662 lines
+    
+  ===============
 
 </details>
 
