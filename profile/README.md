@@ -1,4 +1,4 @@
-<img src="https://i.imgur.com/8PbvYtK.png" alt="image" width="640" height="160">
+<img src="https://github.com/GNU-Szmelc/.github/assets/95081005/063c3d66-5ea4-4581-ac6f-79f42ab6e61b" alt="image" width="640" height="160">
 
 <details>
   <summary>[Organization Statistics]</summary>
@@ -34,8 +34,10 @@
   <summary>[Who We Are]</summary>
   
   ### Notable members:
+
+  > TODO: Add Polishcat, MajsterTynek, S1cstynine, Toprz, + everyone else I forgot
   
-<details>
+  <details>
   <summary>SilverX</summary>
     <img src="https://i.imgur.com/BZ7eOoD.png">
 
