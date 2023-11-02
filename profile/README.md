@@ -107,10 +107,9 @@ We welcome contributions from the open source community. \
 If you'd like to get involved in our projects or have ideas for collaboration, feel free to reach out. \
 You can also join our [Discord Server](https://discord.gg/CEMxQ4HMYA) to discuss Linux, open source, and more.
 
-## Contact Us
+## Join our community:
 
-- Email: [szmelc@libertymail.net](mailto:szmelc@libertymail.net)
-- IRC: #szmelc on Quakenet
+![Discord](https://img.shields.io/discord/940431029037072416?style=for-the-badge&logo=discord&logoColor=hex&color=black)
 
 ---
 
