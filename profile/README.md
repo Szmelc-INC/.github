@@ -1,3 +1,4 @@
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=75&lines=%5BGNU-Szmelc%5D)](https://git.io/typing-svg)
 <img src="https://github.com/GNU-Szmelc/.github/assets/95081005/063c3d66-5ea4-4581-ac6f-79f42ab6e61b" alt="image" width="640" height="160">
 
 <details>
@@ -87,7 +88,7 @@ Flashbacks from apt upgrade...
 </details>
 
 
-## Our Projects
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=25&lines=Our+Projects%3A)](https://git.io/typing-svg)
 
 Explore some of our featured projects:
 
@@ -101,18 +102,20 @@ Explore some of our featured projects:
 - [Xsplit256](https://github.com/GNU-Szmelc/Xsplit256): Split files to parts & hash with sha256.
 - [Shellcord](https://github.com/GNU-Szmelc/Shellcord): Basic Discord Bot / Hook scripts.
 
-## Get Involved
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=25&lines=Get+Involved%3A)](https://git.io/typing-svg)
 
 We welcome contributions from the open source community. \
 If you'd like to get involved in our projects or have ideas for collaboration, feel free to reach out. \
 You can also join our [Discord Server](https://discord.gg/CEMxQ4HMYA) to discuss Linux, open source, and more.
 
-## Join our community:
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=28&lines=Join+our+community%3A)](https://git.io/typing-svg)
 
 ![Discord](https://img.shields.io/discord/940431029037072416?style=for-the-badge&logo=discord&logoColor=hex&color=black)
 
 ---
 
 <div align="center">
-  <p>© 2023 GNU SZMELC</p>
+  
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&center=true&multiline=true&random=false&width=450&height=25&lines=GNU+SZMELC+%C2%A9+2023)](https://git.io/typing-svg)
+  
 </div>
