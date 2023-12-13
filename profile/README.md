@@ -95,7 +95,6 @@ Explore some of our featured projects:
 - [RgXKill](https://github.com/GNU-Szmelc/RgXKill): Kill process by it's RegEx.
 - [xLoop](https://github.com/GNU-Szmelc/xloop): Tool to quickly run commands in configurable loop.
 - [$xDLP](https://github.com/GNU-Szmelc/SxDLP): Yt-dlp front end to quickly search, preview and download media from YT and more!
-- [OCR](https://github.com/GNU-Szmelc/OCR): Optical Character Recognition.
 - [UDM](https://github.com/GNU-Szmelc/UDM): Universal Dialog Menu. [Create Dialog GNU based menus in seconds]
 - [Install-Szmelc-Wizard](https://github.com/GNU-Szmelc/InstallSzmelcWizard): Based Szmelc Installer 101.
 - [MetaX](https://github.com/GNU-Szmelc/MetaX): Metadata embedder for images.
