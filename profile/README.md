@@ -15,6 +15,8 @@
 
 </details>
 
+### 𝕺𝖙𝖍𝖊𝖗 𝕻𝖗𝖔𝖏𝖊𝖈𝖙𝖘
+[![Entropy Linux](https://img.shields.io/badge/Entropy%20Linux-000000?style=for-the-badge&logo=linux&logoColor=lime)](https://github.com/Entropy-Linux)
 
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=25&lines=Our+Projects%3A)](https://git.io/typing-svg)
