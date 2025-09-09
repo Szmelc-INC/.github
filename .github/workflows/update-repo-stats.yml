@@ -1,0 +1,40 @@
+name: Update repository metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 0'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq cloc
+
+      - name: Generate repository reports
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SLEEP_SECONDS: 2
+        run: |
+          bash scripts/update_repo_stats.sh
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain REPOS.md REPOS-PRIVATE.md)" ]; then
+            git add REPOS.md REPOS-PRIVATE.md
+            git commit -m "chore: update repository metrics"
+            git push
+          else
+            echo "No changes to commit"
+          fi
