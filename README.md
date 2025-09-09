@@ -1,10 +1,18 @@
 # .github
-Pinned readme
 
-# *TODO*
-- Centralize Organization / Personal GitHubs + GitPage as central access point
-- Make SVG's universal
-- make universal color themes for stats and other dynamic md elements
-- Open discussions / issues so people can let me know what they need, what they want, like script a, or patch b.
-- Maintainer roles + access point for database SFTP.
-- 
+## Overview
+
+This repository contains shared resources for the **GNU Szmelc** organization on GitHub. Use it to coordinate organization-level profile content, workflows, and other configuration files.
+
+## Resources
+
+- `profile/` – sources for the public organization profile displayed at `github.com/GNU-Szmelc`.
+- Additional templates and workflows can be added here as the organization evolves.
+
+## Contributing
+
+Suggestions, requests, or questions are welcome. Open an issue or discussion to let maintainers know what you need.
+
+## License
+
+GNU Szmelc © 2023
