@@ -4,7 +4,7 @@
 
 ### ***Average Machine™ & Learning™ enjoyers***
 [![SAUR](https://img.shields.io/badge/szmelc--AUR-0b1c38?style=for-the-badge&logo=archlinux&logoColor=11898f)](https://szmelc-inc.github.io/SAUR/)
-[![sernik77](https://img.shields.io/badge/sernik77-0b1c38?style=for-the-badge&logo=sahibinden&logoColor=17a36b)](https://github.com/CYBERSZP0NT) 
+[![sernik77](https://img.shields.io/badge/sernik77-0b1c38?style=for-the-badge&logo=sahibinden&logoColor=17a36b)](https://github.com/sernik77) 
 [![Szmelc-INC](https://img.shields.io/badge/Szmelc--INC-0b1c38?style=for-the-badge&logo=github&logoColor=6e49b8)](https://github.com/Szmelc-INC) 
 [![CYBERSZP0NT](https://img.shields.io/badge/PostHuman™-0b1c38?style=for-the-badge&logo=mistralai&logoColor=2197b5)](https://github.com/CYBERSZP0NT) 
 [![Szmelc.com](https://img.shields.io/badge/szmelc--com-0b1c38?style=for-the-badge&logo=javascript&logoColor=orange)](https://szmelc.com/)
