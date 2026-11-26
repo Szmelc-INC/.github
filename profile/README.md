@@ -10,12 +10,7 @@
 
 </div>
 
-<div align="center">
 
-[![Typing SVG](https://typingsvg.vercel.app/api/svg?pause=3000&backgroundColor=%23000000&backgroundOpacity=0&border=false&lines=%5B%7B%22text%22%3A%22%F0%9D%91%83%F0%9D%91%9C%F0%9D%91%A0%F0%9D%91%A1%F0%9D%90%BB%F0%9D%91%A2%F0%9D%91%9A%F0%9D%91%8E%F0%9D%91%9B%E2%84%A2%22%2C%22color%22%3A%222197b5%22%2C%22fontSize%22%3A58%2C%22typingSpeed%22%3A0.125%2C%22deleteSpeed%22%3A0.25%2C%22fontWeight%22%3A%22777%22%7D%2C%7B%22text%22%3A%22Szmelc.INT%22%2C%22color%22%3A%22%23e0fdff%22%2C%22fontSize%22%3A48%2C%22typingSpeed%22%3A0.0999000999000999%2C%22deleteSpeed%22%3A0.16666666666666666%2C%22fontWeight%22%3A%22666%22%7D%5D)](https://github.com/whiteSHADOW1234/TypingSVG)
-
-# [𝑷𝒐𝒔𝒕𝑯𝒖𝒎𝒂𝒏™](https://github.com/Szmelc-INC)
-***"Konspiratornia EjAj" & "Fabryka SzkajNETów"***
 
 </div>
 
