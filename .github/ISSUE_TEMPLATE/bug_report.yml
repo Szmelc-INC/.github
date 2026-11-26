@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a reproducible problem in an organization repository
+title: "[bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the repository's README, `SUPPORT.md`, and existing issues first. Use the repository's private security process for vulnerabilities.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Which Szmelc-INC repository is affected?
+      placeholder: owner/repository
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include a release tag or commit hash when available.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, relevant tool versions, and other context.
+    validations:
+      required: false
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Give the smallest sequence that reproduces the problem.
+      placeholder: |
+        1. Run ...
+        2. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Remove credentials, personal data, and other secrets before posting.
+      render: text
+    validations:
+      required: false

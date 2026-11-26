@@ -1,0 +1,73 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ORG="Szmelc-INC"
+SLEEP_SECONDS=${SLEEP_SECONDS:-2}
+
+PUBLIC_FILE="REPOS.md"
+PRIVATE_FILE="REPOS-PRIVATE.md"
+
+cat > "$PUBLIC_FILE" <<'EOP'
+# Repository Metrics
+
+| Repository | Lines of Code | Stars | Contributors | Forks | Branches | Releases | Issues | Last Activity |
+|------------|---------------|-------|--------------|-------|----------|----------|--------|---------------|
+EOP
+
+cat > "$PRIVATE_FILE" <<'EOP'
+# Private Repository Metrics
+
+| Repository | Lines of Code | Stars | Contributors | Forks | Branches | Releases | Issues | Last Activity |
+|------------|---------------|-------|--------------|-------|----------|----------|--------|---------------|
+EOP
+
+repos=$(gh repo list "$ORG" --limit 1000 --visibility all --json name,visibility,updatedAt,stargazerCount,forkCount)
+
+printf '%s' "$repos" | jq -c '.[]' | while read -r repo; do
+  name=$(echo "$repo" | jq -r '.name')
+  visibility=$(echo "$repo" | jq -r '.visibility')
+  stars=$(echo "$repo" | jq -r '.stargazerCount')
+  forks=$(echo "$repo" | jq -r '.forkCount')
+  updated=$(echo "$repo" | jq -r '.updatedAt')
+
+  tmpdir=$(mktemp -d)
+  if gh repo clone "$ORG/$name" "$tmpdir/$name" -- --depth 1 >/dev/null 2>&1; then
+    lines=$(cloc "$tmpdir/$name" --json --quiet 2>/dev/null | jq '.SUM.code // 0')
+  else
+    echo "Failed to clone $name" >&2
+    lines=0
+  fi
+  rm -rf "$tmpdir"
+  sleep "$SLEEP_SECONDS"
+
+  contributors=$(gh api "repos/$ORG/$name/contributors?per_page=100" --paginate 2>/dev/null | jq -r '.[].login' | wc -l | tr -d ' ')
+  sleep "$SLEEP_SECONDS"
+
+  branches=$(gh api "repos/$ORG/$name/branches?per_page=100" --paginate 2>/dev/null | jq -r '.[].name' | wc -l | tr -d ' ')
+  sleep "$SLEEP_SECONDS"
+
+  releases=$(gh api "repos/$ORG/$name/releases?per_page=100" --paginate 2>/dev/null | jq -r '.[].id' | wc -l | tr -d ' ')
+  sleep "$SLEEP_SECONDS"
+
+  issues=$(gh api "repos/$ORG/$name/issues?state=all&per_page=100" --paginate 2>/dev/null | jq -r '.[] | select(.pull_request? | not) | .id' | wc -l | tr -d ' ')
+  sleep "$SLEEP_SECONDS"
+
+  row="| [$name](https://github.com/$ORG/$name) | $lines | $stars | $contributors | $forks | $branches | $releases | $issues | $updated |"
+  if [ "$visibility" = "PRIVATE" ]; then
+    echo "$row" >> "$PRIVATE_FILE"
+  else
+    echo "$row" >> "$PUBLIC_FILE"
+  fi
+
+done
+
+if [ $(wc -l < "$PUBLIC_FILE") -le 3 ]; then
+  echo "No public repositories processed" >&2
+  exit 1
+fi
+
+if [ $(wc -l < "$PRIVATE_FILE") -le 3 ]; then
+  echo "No private repositories processed" >&2
+fi
+
+echo "Repository analysis completed"
