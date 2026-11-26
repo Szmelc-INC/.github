@@ -1,0 +1,62 @@
+name: event-relay
+
+# Every 30 min: relay notable public events of Szmelc-INC and sernik77 (stars, forks, members,
+# repos made public, outside releases, outside PRs/issues/comments on personal repos) to the
+# inbox issue (vars.EVENT_INBOX_ISSUE; GitHub e-mails the maintainer), Discord and optional SMTP.
+# Full org activity goes to Discord through the org webhook; PR/issue e-mails come from watching.
+on:
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+    inputs:
+      since_hours:
+        description: 'Dry run: print events of the last N hours, send nothing'
+        required: false
+        type: string
+
+permissions: {}
+
+concurrency:
+  group: event-relay
+  cancel-in-progress: false
+
+jobs:
+  relay:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      actions: write # keepalive: re-enable this workflow so the schedule never lapses
+    env:
+      GH_TOKEN: ${{ github.token }}
+      ORG: Szmelc-INC
+      USER_ACCOUNT: sernik77
+      MAINTAINERS: sernik77
+      STATE_FILE: .relay/last-id
+      INBOX_REPO: ${{ github.repository }}
+      INBOX_ISSUE: ${{ vars.EVENT_INBOX_ISSUE }}
+      DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+      SMTP_URL: ${{ secrets.SMTP_URL }}
+      SMTP_USER: ${{ secrets.SMTP_USER }}
+      SMTP_PASS: ${{ secrets.SMTP_PASS }}
+      MAIL_TO: ${{ secrets.MAIL_TO }}
+      SINCE_HOURS: ${{ inputs.since_hours }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/cache@v6
+        with:
+          path: .relay
+          key: event-relay-${{ github.run_id }}
+          restore-keys: event-relay-
+      - name: Relay
+        run: |
+          if [[ -n $SINCE_HOURS ]]; then
+            bash scripts/event-relay.sh --dry-run --since-hours "$SINCE_HOURS"
+          else
+            bash scripts/event-relay.sh
+          fi
+      - name: Keepalive
+        if: github.event_name == 'schedule'
+        run: gh api -X PUT "repos/$INBOX_REPO/actions/workflows/event-relay.yml/enable" --silent
