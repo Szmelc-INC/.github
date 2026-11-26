@@ -1,0 +1,37 @@
+name: Feature request
+description: Propose an improvement for an organization repository
+title: "[feature] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the repository's README, `SUPPORT.md`, existing issues, and Discussions before proposing a large change.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository
+      description: Which Szmelc-INC repository should this affect?
+      placeholder: owner/repository
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: What limitation or user need does this address?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe a possible solution. Alternatives are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Compatibility and impact
+      description: Note migration, security, maintenance, or documentation effects.
+    validations:
+      required: false

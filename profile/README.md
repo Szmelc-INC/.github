@@ -1,25 +1,22 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=75&lines=%5BGNU-Szmelc%5D)](https://git.io/typing-svg)
-<img src="https://github.com/GNU-Szmelc/.github/assets/95081005/063c3d66-5ea4-4581-ac6f-79f42ab6e61b" alt="image" width="640" height="160">
+<div align="center">
 
+[![2026](https://typingsvg.vercel.app/api/svg?width=500&height=60&pause=3000&backgroundColor=%23000000&backgroundOpacity=0&center=true&border=false&lines=%5B%7B%22text%22%3A%22Szmelc+Incorporated™%22%2C%22color%22%3A%22%232197b5%22%2C%22fontSize%22%3A38%2C%22typingSpeed%22%3A0.1%2C%22deleteSpeed%22%3A0.25%2C%22fontWeight%22%3A%22555%22%7D%5D)](https://github.com/whiteSHADOW1234/TypingSVG)
 
-### 𝕺𝖙𝖍𝖊𝖗 𝕻𝖗𝖔𝖏𝖊𝖈𝖙𝖘
-[![Entropy Linux](https://img.shields.io/badge/Entropy%20Linux-000000?style=for-the-badge&logo=linux&logoColor=lime)](https://github.com/Entropy-Linux)
+### ***Average Machine™ & Learning™ enjoyers***
+[![SAUR](https://img.shields.io/badge/szmelc--AUR-0b1c38?style=for-the-badge&logo=archlinux&logoColor=11898f)](https://szmelc-inc.github.io/SAUR/)
+[![sernik77](https://img.shields.io/badge/sernik77-0b1c38?style=for-the-badge&logo=sahibinden&logoColor=17a36b)](https://github.com/sernik77) 
+[![Szmelc-INC](https://img.shields.io/badge/Szmelc--INC-0b1c38?style=for-the-badge&logo=github&logoColor=6e49b8)](https://github.com/Szmelc-INC) 
+[![Szmelc.com](https://img.shields.io/badge/szmelc--com-0b1c38?style=for-the-badge&logo=javascript&logoColor=orange)](https://szmelc.com/)
 
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=25&lines=Our+Projects%3A)](https://git.io/typing-svg)
-> #### List was OUTDATED AS FUCK, thus removed.
-#### ***So just fucken look around i guess***
-
----
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&multiline=true&random=false&width=450&height=28&lines=Join+our+community%3A)](https://git.io/typing-svg)
-
-![Discord](https://img.shields.io/discord/940431029037072416?style=for-the-badge&logo=discord&logoColor=hex&color=black)
-
----
+</div>
 
 <div align="center">
-  
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&duration=5500&pause=1500&color=4AF7ADD6&center=true&multiline=true&random=false&width=450&height=25&lines=GNU+SZMELC+%C2%A9+2023)](https://git.io/typing-svg)
-  
+
+[![Typing SVG](https://typingsvg.vercel.app/api/svg?pause=3000&backgroundColor=%23000000&backgroundOpacity=0&border=false&lines=%5B%7B%22text%22%3A%22%F0%9D%91%83%F0%9D%91%9C%F0%9D%91%A0%F0%9D%91%A1%F0%9D%90%BB%F0%9D%91%A2%F0%9D%91%9A%F0%9D%91%8E%F0%9D%91%9B%E2%84%A2%22%2C%22color%22%3A%222197b5%22%2C%22fontSize%22%3A58%2C%22typingSpeed%22%3A0.125%2C%22deleteSpeed%22%3A0.25%2C%22fontWeight%22%3A%22777%22%7D%2C%7B%22text%22%3A%22Szmelc.INT%22%2C%22color%22%3A%22%23e0fdff%22%2C%22fontSize%22%3A48%2C%22typingSpeed%22%3A0.0999000999000999%2C%22deleteSpeed%22%3A0.16666666666666666%2C%22fontWeight%22%3A%22666%22%7D%5D)](https://github.com/whiteSHADOW1234/TypingSVG)
+
+# [𝑷𝒐𝒔𝒕𝑯𝒖𝒎𝒂𝒏™](https://github.com/Szmelc-INC)
+***"Konspiratornia EjAj" & "Fabryka SzkajNETów"***
+
 </div>
+
+<!-- [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=44&duration=5500&pause=1000&color=4AF7ADD6&multiline=false&random=false&width=450&height=75&lines=Szmelc.INC)](https://git.io/typing-svg) -->
